@@ -11,41 +11,39 @@ notags: true
 <div class="row">
 <div markdown="1" class="col-xs-12 col-sm-12 col-md-12 col-lg-6 block">
 
-## Get started with Docker
+## Начать с Docker
 
-Try our new multi-part walkthrough that covers writing your first app,
-data storage, networking, and swarms, and ends with your app running on
-production servers in the cloud. Total reading time is less than an hour.
+Прочтите наше новое многоэтапное пошаговое руководство, описывающее создание первого приложения, 
+хранения данных, сетей и роев и заканчивается тем, что приложение работает 
+на сервере в облаке. Общее время чтения меньше часа.
 
 [Get started with Docker](/get-started/){: class="button outline-btn"}
 
 </div>
 <div markdown="1" class="col-xs-12 col-sm-12 col-md-12 col-lg-6 block">
 
-## Try Docker Enterprise Edition
+## Пробуйте Docker Enterprise Edition
 
-Run your solution in production with Docker Enterprise Edition to get a
-management dashboard, security scanning, LDAP integration, content signing,
-multi-cloud support, and more. Click below to test-drive a running instance of
-Docker EE without installing anything.
+Запустите свое решение с помощью Docker Enterprise Edition, чтобы получить панель управления, сканирование безопасности, интеграцию с LDAP, подписание контента, поддержку нескольких облаков и многое другое. 
+Нажмите ниже, чтобы протестировать запущенный экземпляр Docker, не устанавливая ничего.
 
 [Try Docker Enterprise Edition](https://dockertrial.com){: class="button outline-btn" onclick="ga('send', 'event', 'EE Trial Referral', 'Front Page', 'Click');"}
 
 </div>
 </div>
 
-## Docker Editions
+## Докеры
 
 <div class="row">
 <div markdown="1" class="col-xs-12 col-sm-12 col-md-12 col-lg-6 block">
 
-### Docker Community Edition
+### Сообщество разработчиков Docker
 
-Get started with Docker and experimenting with container-based apps. Docker CE
-is available on many platforms, from desktop to cloud to server. Build and share
-containers and automate the development pipeline from a single environment.
-Choose the Edge channel to get access to the latest features, or the Stable
-channel for more predictability.
+Начните работу с Docker и экспериментируйте с приложениями на основе контейнеров. Docker CE 
+доступен на многих платформах: от настольных до облачных до серверов. 
+Можно строить, делиться контейнерами и автоматизировать конвейер разработки из одной среды. 
+Выберите канал «Край», чтобы получить доступ к последним функциям, или «Стабильный» 
+канал для большей предсказуемости.
 
 [Learn more about Docker CE](/install/index.md#platform-support-matrix){: class="button outline-btn"}
 
