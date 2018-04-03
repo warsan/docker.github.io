@@ -1,22 +1,22 @@
 # Docs @ Docker
 
-Welcome to the repo for our documentation. This is the source for
+Добро пожаловать в репо для нашей документации. Это источник
 [https://docs.docker.com/](https://docs.docker.com/).
 
-Feel free to send us pull requests and file issues. Our docs are completely
-open source and we deeply appreciate contributions from our community!
+Не стесняйтесь присылать нам запросы на загрузку и проблемы с файлами. Наши документы полностью 
+с открытым исходным кодом, и мы глубоко ценим вклад нашего сообщества!
 
-## Providing feedback
+## Обеспечение обратной связи
 
-We really want your feedback, and we've made it easy.  You can edit a page or 
-request changes in the right column of every page on [https://docs.docker.com/]
-(https://docs.docker.com/).  You can also rate each page by clicking a link at 
-the footer.
+Мы действительно хотим получить ваши отзывы, а потому облегчили эту задачу. 
+Вы можете редактировать страницу или запросить изменения в правом столбце 
+каждой страницы на [https://docs.docker.com/](https://docs.docker.com/).  
+Вы также можете оценить каждую страницу, нажав ссылку, где нижний колонтитул.
 
-**Only file issues about the documentation in this repository.** One way
-to think about this is that you should file a bug here if your issue is that you
-don't see something that should be in the docs, or you see something incorrect
-or confusing in the docs.
+**Проблемы с файлами документации в этом репозитории.** 
+Один из способов решить, что вы должны заявить об ошибке здесь, 
+если вы не увидели нужное вам, 
+или увидели что-то неправильное или запутанное в документах.
 
 - If your problem is a general question about how to configure or use Docker,
   ask in [https://forums.docker.com](https://forums.docker.com) instead.
