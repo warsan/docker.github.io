@@ -71,9 +71,9 @@ notags: true
         <div class="col-sm-12 col-md-12 col-lg-4 block">
             <div class="component">
                 <div class="component-icon">
-                    <a href="docker-for-mac/"> <img src="../images/apple_48.svg" alt="Docker for Mac"> </a>
+                    <a href="docker-for-mac/"> <img src="../images/apple_48.svg" alt="Docker для Mac"> </a>
                 </div>
-                <h3 id="docker-for-mac"><a href="docker-for-mac/">Docker for Mac</a></h3>
+                <h3 id="docker-for-mac"><a href="docker-for-mac/">Docker для Mac</a></h3>
                 <p>Натуральное приложение с использованием песочницы для MacOS, предоставляет все инструменты Docker для вашего Mac.</p>
             </div>
         </div>
@@ -89,10 +89,10 @@ notags: true
         <div class="col-sm-12 col-md-12 col-lg-4 block">
             <div class="component">
                 <div class="component-icon">
-                    <a href="install/linux/ubuntu/"> <img src="../images/linux_48.svg" alt="Docker for Linux"> </a>
+                    <a href="install/linux/ubuntu/"> <img src="../images/linux_48.svg" alt="Docker для Linux"> </a>
                 </div>
-                <h3 id="docker-for-linux"><a href="install/linux/ubuntu/">Docker for Linux</a></h3>
-                <p>Install Docker on a computer which already has a Linux distribution installed.</p>
+                <h3 id="docker-for-linux"><a href="install/linux/ubuntu/">Docker для Linux</a></h3>
+                <p>Docker для компьютера, на котором установлен дистрибутив Linux.</p>
             </div>
         </div>
     </div>
@@ -107,31 +107,31 @@ notags: true
                     <a href="docker-cloud/"> <img src="../images/cloud_48.svg" alt="Docker Cloud"> </a>
                 </div>
                 <h3 id="docker-cloud"><a href="docker-cloud/">Docker Cloud</a></h3>
-                <p>A hosted service for building, testing, and deploying Docker images to your hosts.</p>
+                <p>Хостинг-служба для создания, тестирования и развертывания Docker для ваших хостов.</p>
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-4 block">
             <div class="component">
                 <div class="component-icon">
-                    <a href="docker-for-aws/"> <img src="../images/cloud_48.svg" alt="Docker for AWS"> </a>
+                    <a href="docker-for-aws/"> <img src="../images/cloud_48.svg" alt="Docker для AWS"> </a>
                 </div>
-                <h3 id="docker-cloud-providers"><a href="docker-for-aws/">Docker for AWS</a></h3>
-                <p>Deploy your Docker apps on AWS.</p>
+                <h3 id="docker-cloud-providers"><a href="docker-for-aws/">Docker для AWS</a></h3>
+                <p>Разверните Docker на AWS.</p>
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-4 block">
             <div class="component">
                 <div class="component-icon">
-                    <a href="docker-for-azure/"> <img src="../images/cloud_48.svg" alt="Docker for Azure"> </a>
+                    <a href="docker-for-azure/"> <img src="../images/cloud_48.svg" alt="Docker для Azure"> </a>
                 </div>
-                <h3 id="docker-cloud-providers"><a href="docker-for-azure/">Docker for Azure</a></h3>
-                <p>Deploy your Docker apps on Azure.</p>
+                <h3 id="docker-cloud-providers"><a href="docker-for-azure/">Docker для Azure</a></h3>
+                <p>Разверните Docker на Azure.</p>
             </div>
         </div>
     </div>
 </div>
 
-## Components
+## Компоненты
 
 <h5>Docker EE Add-ons</h5>
 
@@ -142,10 +142,10 @@ notags: true
         <div class="col-sm-12 col-md-12 col-lg-4 block">
             <div class="component">
                 <div class="component-icon">
-                    <a href="datacenter/ucp/{{ site.ucp_version }}/guides/"> <img src="../images/UCP_48.svg" alt="Universal Control Plane"> </a>
+                    <a href="datacenter/ucp/{{ site.ucp_version }}/guides/"> <img src="../images/UCP_48.svg" alt="Универсальный пульт"> </a>
                 </div>
-                <h3 id="ucp"><a href="datacenter/ucp/{{ site.ucp_version }}/guides/">Universal Control Plane</a></h3>
-                <p>(UCP) Manage a cluster of on-premise Docker hosts like a single machine with this enterprise product.</p>
+                <h3 id="ucp"><a href="datacenter/ucp/{{ site.ucp_version }}/guides/">Универсальный пульт</a></h3>
+                <p>(UCP) Управляйте кластером локальных хостов Docker как отдельной машиной с этим корпоративным продуктом.</p>
             </div>
         </div>
     <!--DTR-->
