@@ -1,20 +1,16 @@
 ---
 description: Docker Hub Automated Builds
-keywords: Docker, webhookds, hub, builds
-title: Webhooks for automated builds
+keywords: Docker, webhookds, хаб, сборки
+title: Веб-хаки для автоматизированных сборок
 ---
 
-If you have an automated build repository in Docker Hub, you can use Webhooks to
-cause an action in another application in response to an event in the
-repository. Webhook is a POST request sent to a defined URL which provides the service. Docker Hub webhooks fire when an image is built in, or a new tag
-is added to, your automated build repository.
+Если в Docker Hub имеется автоматизированный репозиторий сборки, вы можете использовать Webhooks, чтобы вызвать действие в другом приложении в ответ на событие в репозитории. Webhook - это запрос POST, отправленный на определенный URL-адрес, который предоставляет услугу. Docker Hub webhooks загорается, когда изображение встроено или добавлен новый тег, в ваш автоматизированный репозиторий сборки.
 
-Configure webhooks on `https://hub.docker.com/r/<USERNAME>/<REPOSITORY>/~/settings/webhooks/`.
+Настройте веб-узлы на `https://hub.docker.com/r/<USERNAME>/<REPOSITORY>/~/settings/webhooks/`.
 
 ![Create Webhook](/docker-hub/images/webhooks.png)
 
-With your webhook, you specify a target URL to POST to. Docker Hub POSTs the URL
-with the following payload:
+С вашим веб-узлом вы указываете целевой URL-адрес для POST. Docker Hub POST отправляет URL-адрес со следующей полезной нагрузкой:
 
 ```json
 {
@@ -34,7 +30,7 @@ with the following payload:
     "date_created": 1.417494799e+09,
     "description": "",
     "dockerfile": "#\n# BUILD\u0009\u0009docker build -t svendowideit/apt-cacher .\n# RUN\u0009\u0009docker run -d -p 3142:3142 -name apt-cacher-run apt-cacher\n#\n# and then you can run containers with:\n# \u0009\u0009docker run -t -i -rm -e http_proxy http://192.168.1.2:3142/ debian bash\n#\nFROM\u0009\u0009ubuntu\n\n\nVOLUME\u0009\u0009[\/var/cache/apt-cacher-ng\]\nRUN\u0009\u0009apt-get update ; apt-get install -yq apt-cacher-ng\n\nEXPOSE \u0009\u00093142\nCMD\u0009\u0009chmod 777 /var/cache/apt-cacher-ng ; /etc/init.d/apt-cacher-ng start ; tail -f /var/log/apt-cacher-ng/*\n",
-    "full_description": "Docker Hub based automated build from a GitHub repo",
+    "full_description": "Автоматизированная сборка Docker Hub с репо GitHub",
     "is_official": false,
     "is_private": true,
     "is_trusted": true,
@@ -49,6 +45,4 @@ with the following payload:
 }
 ```
 
->**Note**: If you want to test your webhook, we recommend using a tool like
->[requestb.in](http://requestb.in/). Also note, the Docker Hub server can't be
->filtered by IP address.
+>**Примечание**:  Если вы хотите протестировать свой webhook, мы рекомендуем использовать инструмент, например requestb.in . Также обратите внимание, что сервер Docker Hub нельзя фильтровать по IP-адресу.
