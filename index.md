@@ -1,8 +1,8 @@
 ---
-description: Home page for Docker's documentation
+description: Домашняя страница документации Docker
 keywords: Docker, documentation, manual, guide, reference, api, samples
 landing: true
-title: Docker Documentation
+title: Документация докеров
 notoc: true
 notags: true
 ---
@@ -27,7 +27,7 @@ notags: true
 Запустите свое решение с помощью Docker Enterprise Edition, чтобы получить панель управления, сканирование безопасности, интеграцию с LDAP, подписание контента, поддержку нескольких облаков и многое другое. 
 Нажмите ниже, чтобы протестировать запущенный экземпляр Docker, не устанавливая ничего.
 
-[Try Docker Enterprise Edition](https://dockertrial.com){: class="button outline-btn" onclick="ga('send', 'event', 'EE Trial Referral', 'Front Page', 'Click');"}
+[Попробуйте Docker Enterprise Edition](https://dockertrial.com){: class="button outline-btn" onclick="ga('send', 'event', 'EE Trial Referral', 'Front Page', 'Click');"}
 
 </div>
 </div>
@@ -45,25 +45,25 @@ notags: true
 Выберите канал «Край», чтобы получить доступ к последним функциям, или «Стабильный» 
 канал для большей предсказуемости.
 
-[Learn more about Docker CE](/install/index.md#platform-support-matrix){: class="button outline-btn"}
+[Узнайте больше о Docker CE](/install/index.md#platform-support-matrix){: class="button outline-btn"}
 
 </div>
 <div markdown="1" class="col-xs-12 col-sm-12 col-md-12 col-lg-6 block">
 
 ### Docker Enterprise Edition
 
-Designed for enterprise development and IT teams who build, ship, and run
-business critical applications in production at scale. Integrated, certified,
-and supported to provide enterprises with the most secure container platform in
-the industry to modernize all applications. Docker EE Advanced comes with enterprise
-[add-ons](#docker-ee-add-ons) like UCP and DTR.
+Предназначен для разработчиков и ИТ-специалистов, которые строят, отправляют и запускают 
+критически важные для бизнеса приложения в масштабе производства. Интегрированные, сертифицированные, 
+и поддерживаемые для обеспечения предприятий самой безопасной контейнерной платформой в 
+промышленности для модернизации всех приложений. Docker EE Advanced поставляется с корпоративными
+[add-ons](#docker-ee-add-ons) как UCP и DTR.
 
 [Learn more about Docker EE](/install/#platform-support-matrix){: class="button outline-btn"}
 
 </div>
-</div><!-- end row -->
+</div><!-- конечная строка -->
 
-## Run Docker anywhere
+## Запустить Docker где угодно
 
 <div class="component-container">
     <!--start row-->
@@ -74,16 +74,16 @@ the industry to modernize all applications. Docker EE Advanced comes with enterp
                     <a href="docker-for-mac/"> <img src="../images/apple_48.svg" alt="Docker for Mac"> </a>
                 </div>
                 <h3 id="docker-for-mac"><a href="docker-for-mac/">Docker for Mac</a></h3>
-                <p>A native application using the macOS sandbox security model which delivers all Docker tools to your Mac.</p>
+                <p>Натуральное приложение с использованием песочницы для MacOS, предоставляет все инструменты Docker для вашего Mac.</p>
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-4 block">
             <div class="component">
                 <div class="component-icon">
-                    <a href="docker-for-windows/"> <img src="../images/windows_48.svg" alt="Docker for Windows"> </a>
+                    <a href="docker-for-windows/"> <img src="../images/windows_48.svg" alt="Docker для Windows"> </a>
                 </div>
-                <h3 id="docker-for-windows"><a href="docker-for-windows/">Docker for Windows</a></h3>
-                <p>A native Windows application which delivers all Docker tools to your Windows computer.</p>
+                <h3 id="docker-for-windows"><a href="docker-for-windows/">Docker для Windows</a></h3>
+                <p>Приложение Windows предоставляет все инструменты Docker на вашем компьютере.</p>
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-4 block">
